@@ -20,8 +20,8 @@ Note that ``pytorch >=1.10``.
 ```tex
 └── code-and-data
     ├── MCM                     # The MCM-TSSO Dataset
-    ├── BBS                     # The traffic management domain Dataset
-    ├── SLD                     # The large-scale TTSO Dataset
+    ├── BBS                     # The 15-minute Dataset in the Traffic Management Domain
+    ├── SLD                     # The 5-minute Dataset for Large-scale TTSO
     ├── methods                 # The core source code of our model DBLM
     │   |──  _init_.py          # Initialization file for models
     │   |──  DBLM.py            # Including the model in DBLM    
