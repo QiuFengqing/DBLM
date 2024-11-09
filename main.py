@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-# --*-- coding: utf-8 --*--
-# @Author: Xinke Jiang
-# @Email: XinkeJiang@stu.pku.edu.cn
-# @Time: 2024/1/10 20:22
-# @File: main.py
 
 import random
 import numpy as np
