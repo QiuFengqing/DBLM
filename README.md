@@ -36,6 +36,10 @@ Note that ``pytorch >=1.10``.
 ## Datasets
 
 The MCM dataset is public and we have preprocessed this dataset. 
+The BBS dataset includes trip records from ride-sharing companies in Chicago’s 77 zones every 15 minutes.
+The SLD dataset includes trip records from ride-sharing companies in Chicago’s 77 zones every 5 minutes.
+
+More explanation: We also recognize the broader potential of our approach for similar problems. For instance, in urban traffic management, vehicle inflows and outflows at various stations can be likened to order and supply volumes in the supplier allocation context. If a station’s outflow exceeds its inflow, this indicates a high-demand area where additional vehicles are needed. Our model could provide valuable recommendations for vehicle allocation, helping to prevent shortages. In the dataset SLD and BBS, inflow->order, outflow->supply.
 
 ## Configuration
 
