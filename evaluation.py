@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-# --*-- coding: utf-8 --*--
-# @Author: Xinke Jiang
-# @Email: XinkeJiang@stu.pku.edu.cn
-# @Time: 2024/1/12 23:41
-# @File: evaluation.py
 
 import torch
 import torchsort
