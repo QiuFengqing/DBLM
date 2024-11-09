@@ -20,6 +20,8 @@ Note that ``pytorch >=1.10``.
 ```tex
 └── code-and-data
     ├── MCM                     # The MCM-TSSO Dataset
+    ├── BBS                     # The traffic management domain Dataset
+    ├── SLD                     # The large-scale TTSO Dataset
     ├── methods                 # The core source code of our model DBLM
     │   |──  _init_.py          # Initialization file for models
     │   |──  DBLM.py            # Including the model in DBLM    
@@ -58,13 +60,5 @@ We provide more options for you for further study:
 # Reference
 
 ```
-@misc{luo2024timeseries,
-      title={Timeseries Suppliers Allocation Risk Optimization via Deep Black Litterman Model}, 
-      author={Jiayuan Luo and Wentao Zhang and Yuchen Fang and Xiaowei Gao and Dingyi Zhuang and Hao Chen and Xinke Jiang},
-      year={2024},
-      eprint={2401.17350},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 ```
 
