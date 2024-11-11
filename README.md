@@ -38,11 +38,11 @@ Note that ``pytorch >=1.10``.
 ### MCM Dataset
 The MCM dataset is publicly available, and we have preprocessed this dataset for use in our experiments.
 
-### BBS Dataset
+### BSS Dataset
 The large-scale BBS dataset for **15 minutes** supply-demanding prediction (797 stations, 10,207,268 trips, and over 3 years).
 
 ### SLD Dataset
-The SLD dataset contains trip records from ride-sharing companies in Chicago’s 77 zones, aggregated every **5 minutes**.
+The SLD dataset contains FHV trip records in Manhattan, divided into 67 zones by zip codes, from January to April 2018, aggregated every **5 minutes**.
 
 ### Additional Explanation
 Our approach has broader potential for solving similar problems in urban traffic management. For example, vehicle inflows and outflows at various stations can be interpreted as order and supply volumes in the supplier allocation context. 
